@@ -1,21 +1,25 @@
-Invoice Extractor using Gemini Pro Vision Generative AI Model
-This project utilizes the Gemini Pro Vision generative AI model to extract information from invoices. It's deployed using Streamlit, making it easy for anyone to clone and run on their local machine.
+# Invoice Extractor using Gemini Pro Vision Generative AI Model
 
-Steps to Run:
-1.Clone the Repository:
+## Overview
+This project leverages the Gemini Pro Vision generative AI model to extract information from invoices efficiently. The application is deployed using Streamlit, providing an intuitive and user-friendly interface for users to interact with the model. This setup makes it straightforward for anyone to clone the repository and run the application on their local machine.
 
-git clone <repository-url>
+## Features
+- **Automated Invoice Extraction**: Extracts key information such as invoice number, date, total amount, and vendor details from invoice documents.
+- **Streamlit Deployment**: Easy-to-use web interface powered by Streamlit, allowing users to upload invoices and view extracted information.
+- **Scalable and Extendable**: Designed to be scalable and easily extendable for additional features or integration with other systems.
+
+## Getting Started
+### Prerequisites
+- Python 3.7 or higher
+- Streamlit
+- Gemini Pro Vision API access
+
+### Configuration
+1. Obtain API access for the Gemini Pro Vision model and set up your API keys.
+2. Create a `.env` file in the project directory and add your API keys:
 
 
-2.Install Requirements:
-
-pip install -r requirements.txt
-
-
-3.Run the Model:
-
-streamlit run app.py
-
-
-Additional Information:
-This application leverages advanced AI to extract invoice data accurately. It's designed for ease of use and can be run locally by following the steps above. Happy coding!
+## Usage
+1. Upload an invoice using the file uploader in the Streamlit interface.
+2. The application will process the invoice and display the extracted information.
+3. Review and export the extracted data as needed.
